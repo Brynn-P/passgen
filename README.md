@@ -1,2 +1,67 @@
-# passgen
-password generator 
+# PassGen
+password generator
+
+PassGen is a simple Python script for generating strong, randomized passwords directly from the command line.
+This project was created to provide a quick and reliable way to generate passwords for personal use, while keeping good security practices in mind.
+
+Overview
+Creating secure passwords is an essential part of staying safe online. This tool focuses on generating passwords that follow widely accepted best practices:
+-At least 16 characters in length
+-A mix of uppercase and lowercase letters
+-Inclusion of numbers and special characters
+-Fully randomized using Python’s secrets module
+
+While no password is truly uncrackable, this script aims to produce passwords that are significantly more resistant to common attacks.
+
+Requirements
+-Python 3.x
+
+Usage
+Run the script directly from the command line:
+-python3 passgen.py
+
+or
+
+-python passgen.py
+
+Follow the prompts to generate a secure password.
+
+Quick Version.
+A simplified version of the generator is also included:
+passgenQ.py
+
+This version strips out the interactive elements and focuses purely on fast password generation.
+
+Features:
+-Secure password generation using secrets
+-Enforces strong password length (16+ characters)
+-Includes all major character types:
+-Uppercase letters
+-Lowercase letters
+-Numbers
+-Symbols
+-Interactive CLI with user prompts
+-Expandable design for future improvements
+
+Future Development.
+This is the first version of the project. Planned improvements include:
+-Customizable password rules
+-Adjustable character sets (e.g., exclude symbols)
+-Clipboard integration
+-Improved user interface
+-Additional automation features
+
+Disclaimer
+
+This tool is intended for educational and personal use.
+Security depends not only on password strength, but also on:
+Safe storage practices
+Avoiding password reuse
+Maintaining system security
+
+Author
+Brynn P
+
+License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
